@@ -17,48 +17,10 @@ doneBtn.addEventListener('click', (e) => {
     });
 });
 
-/*
-stores
-    -target
-        -item name, priority, user    
 
+const list = document.getElementById('shop-list');
 
-    -sprouts
+function itemAdded() {
+    alert("Item Added");
+}
 
-
-
-*/
-
-
-// // // Reference data collection
-// // var dataRef = firebase.database().ref('data');
-
-
-// //Listen for form submit
-// document.getElementById('itemForm').addEventListener('submit', submitForm);
-
-// function submitForm(e) {
-//     e.preventDefault();
-    
-//     var storeName = getInputVal('storeInput');
-//     var itemName = getInputVal('itemInput');
-//     var priority = getInputVal('priority');
-
-//     // write to firebase
-//     writeData(storeName, itemName, priority);
-// }
-
-
-// function getInputVal(id) {
-//     return document.getElementById(id).value;
-// }
-
-// // Save data to firebase
-// function writeData(storeName, itemName, priority){
-//     var newDataRef = dataRef.push();
-//     newDataRef.set({
-//         storeName : storeInput,
-//         itemName : itemInput,
-//         priority : priority
-//     });
-// }

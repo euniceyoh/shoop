@@ -15,16 +15,62 @@
   </nav>
   <div class='some-page-wrapper'>
     <div class="row">
+
       <div class='column'>
         <div class='shop-list-column'>
-          Store Name
+          <span class="shop-name">Safeway</span>
+          <br>
+          <input type="checkbox">
+          <label class = "checkbox-label">Lettuce</label><br>
+
+          <div class="list-row">
+            <span class="boxed" id="safeway">Today</span>
+            <span class="boxed" id="alice">Alice</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
+          <input type="checkbox">
+          <label class = "checkbox-label">Tomatoes</label><br>
+          <div class="list-row">
+            <span class="boxed" id="safeway">This Week</span>
+            <span class="boxed" id="alice">Anna</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
+        </div>
+
+        <div class='shop-list-column'>
+          <span class="shop-name">Target</span><br>
+          <input type="checkbox">
+          <label class = "checkbox-label">Cereal</label><br>
+
+          <div class="list-row">
+            <span class="boxed" id="safeway">Tomorrow</span>
+            <span class="boxed" id="alice">Ariel</span>
+            <span class="boxed" id="communal">Personal</span>
+          </div>
+          <input type="checkbox">
+          <label class = "checkbox-label">Tofu</label><br>
+          <div class="list-row">
+            <span class="boxed" id="safeway">Tomorrow</span>
+            <span class="boxed" id="alice">Jasmine</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
         </div>
       </div>
+
       <div class='column'>
         <div class='form-column'>
+<<<<<<< HEAD
           <span class="title">Add an Item</span>
           <form id = "itemForm">
+=======
+          <span class="title" id="add-title">Add an Item</span>
+          <form>
+>>>>>>> 13a33299314f071e0be520334fd9b93d27af32f2
             <div class="form"> 
+              <div class="six columns">
+                <label for="storeName">Your Name:</label>
+                <input class="u-full-width" type="text" placeholder="Enter Name" id="exampleEmailInput">
+              </div>
               <div class="six columns">
                 <label for="storeName">Store Name:</label>
                 <input class="u-full-width" type="text" placeholder="Enter Store Name" id="storeInput">
@@ -34,22 +80,43 @@
                 <input class="u-full-width" type="text" placeholder="Enter Item Name" id="itemInput">
               </div>
               <div class="six columns">
+<<<<<<< HEAD
                 <label for="priorityInput">Priority</label>
                 <select class="u-full-width" id="priority">
                   <option value="priority-today">Today</option>
                   <option value="priority-tomorow 2">Tomorrow</option>
                   <option value="priority-thisweek">This Week</option>
+=======
+                <label for="priorityInput">Priority:</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Today</option>
+                  <option value="Option 2">Tomorrow</option>
+                  <option value="Option 3">This Week</option>
+>>>>>>> 13a33299314f071e0be520334fd9b93d27af32f2
+                </select>
+              </div>
+              <div class="six columns">
+                <label for="priorityInput">Use:</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Personal</option>
+                  <option value="Option 2">Communal</option>
                 </select>
               </div>
             </div>
+<<<<<<< HEAD
             <div class="done-button">
               <input class="button-primary" type="submit" value="Done" id = "doneBtn">
+=======
+            <div id="done-button">
+              <input class="button-primary" type="submit" value="Done" onclick="itemAdded()">
+>>>>>>> 13a33299314f071e0be520334fd9b93d27af32f2
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+<<<<<<< HEAD
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
@@ -79,6 +146,9 @@
 
   <script src="script.js"></script>
 
+=======
+  
+>>>>>>> 13a33299314f071e0be520334fd9b93d27af32f2
 </body>
 </html>
 
