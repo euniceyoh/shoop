@@ -60,9 +60,13 @@
 
       <div class='column'>
         <div class='form-column'>
-          <span class="title">Add an Item</span>
+          <span class="title" id="add-title">Add an Item</span>
           <form>
             <div class="form"> 
+              <div class="six columns">
+                <label for="storeName">Your Name:</label>
+                <input class="u-full-width" type="text" placeholder="Enter Name" id="exampleEmailInput">
+              </div>
               <div class="six columns">
                 <label for="storeName">Store Name:</label>
                 <input class="u-full-width" type="text" placeholder="Enter Store Name" id="exampleEmailInput">
@@ -72,11 +76,18 @@
                 <input class="u-full-width" type="text" placeholder="Enter Item Name">
               </div>
               <div class="six columns">
-                <label for="priorityInput">Priority</label>
+                <label for="priorityInput">Priority:</label>
                 <select class="u-full-width" id="exampleRecipientInput">
                   <option value="Option 1">Today</option>
                   <option value="Option 2">Tomorrow</option>
                   <option value="Option 3">This Week</option>
+                </select>
+              </div>
+              <div class="six columns">
+                <label for="priorityInput">Use:</label>
+                <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="Option 1">Personal</option>
+                  <option value="Option 2">Communal</option>
                 </select>
               </div>
             </div>
