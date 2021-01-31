@@ -1,13 +1,13 @@
-* {
-    font-family: "Work Sans", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    * {
+        font-family: "Work Sans";
+        font-weight: bold;
     }
     
     nav .title {
         background-color: #C8D5B9;
         height: 100px;
         font-size: 34px;
+        
         color: #3E5481;
     }
     
@@ -17,9 +17,6 @@
         align-items: center;
     }
     
-    .some-page-wrapper {
-    
-    }
     
     .row {
         display: flex;
@@ -42,7 +39,41 @@
         padding: 20px;
         margin: 40px;
         width: 400px;
-        height: 100px;
+        height: 170px;
+    }
+
+    .list-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .shop-name {
+        color: #FF5842;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .boxed {
+        padding: 8px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    #safeway {
+        background-color: #A6C48A;
+    }
+
+    #alice {
+        background-color: #68B0AB;
+    }
+
+    #communal {
+        background-color: #74D3AE;
     }
     
     .form-column { /* list column */
@@ -63,7 +94,7 @@
         border: none;
     }
     
-    .done-button {
+    #done-button {
       display: flex;
       justify-content: center;
       align-items: center;

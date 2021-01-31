@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>SHOOP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script charset="utf-8" src="js/app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
@@ -17,11 +16,48 @@
   </nav>
   <div class='some-page-wrapper'>
     <div class="row">
+
       <div class='column'>
         <div class='shop-list-column'>
-          Store Name
+          <span class="shop-name">Safeway</span>
+          <br>
+          <input type="checkbox">
+          <label class = "checkbox-label">Lettuce</label><br>
+
+          <div class="list-row">
+            <span class="boxed" id="safeway">Today</span>
+            <span class="boxed" id="alice">Alice</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
+          <input type="checkbox">
+          <label class = "checkbox-label">Tomatoes</label><br>
+          <div class="list-row">
+            <span class="boxed" id="safeway">This Week</span>
+            <span class="boxed" id="alice">Anna</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
+        </div>
+
+        <div class='shop-list-column'>
+          <span class="shop-name">Target</span><br>
+          <input type="checkbox">
+          <label class = "checkbox-label">Cereal</label><br>
+
+          <div class="list-row">
+            <span class="boxed" id="safeway">Tomorrow</span>
+            <span class="boxed" id="alice">Ariel</span>
+            <span class="boxed" id="communal">Personal</span>
+          </div>
+          <input type="checkbox">
+          <label class = "checkbox-label">Tofu</label><br>
+          <div class="list-row">
+            <span class="boxed" id="safeway">Tomorrow</span>
+            <span class="boxed" id="alice">Jasmine</span>
+            <span class="boxed" id="communal">Communal</span>
+          </div>
         </div>
       </div>
+
       <div class='column'>
         <div class='form-column'>
           <span class="title">Add an Item</span>
@@ -44,13 +80,14 @@
                 </select>
               </div>
             </div>
-            <div class="done-button">
-              <input class="button-primary" type="submit" value="Done">
+            <div id="done-button">
+              <input class="button-primary" type="submit" value="Done" onclick="itemAdded()">
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+  
 </body>
 </html>
